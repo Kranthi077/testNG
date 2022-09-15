@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan" duration-ms="63" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+    <groups>
+    </groups>
+    <test name="Packages" duration-ms="63" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+      <class name="testPackage2.Test5">
+        <test-method status="PASS" signature="carLoanPageMobileLogout()[pri:0, instance:testPackage2.Test5@42d8062c]" name="carLoanPageMobileLogout" duration-ms="7" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanPageMobileLogout -->
+        <test-method status="PASS" signature="carLoanPageMobileSearchProducts()[pri:0, instance:testPackage2.Test5@42d8062c]" name="carLoanPageMobileSearchProducts" duration-ms="0" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanPageMobileSearchProducts -->
+        <test-method status="PASS" signature="firstTestCase()[pri:0, instance:testPackage2.Test5@42d8062c]" name="firstTestCase" duration-ms="2" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method status="PASS" signature="secondTestcase()[pri:0, instance:testPackage2.Test5@42d8062c]" name="secondTestcase" duration-ms="1" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestcase -->
+      </class> <!-- testPackage2.Test5 -->
+      <class name="testPackage2.Test6">
+        <test-method status="PASS" signature="carLoanPageMobileLogout()[pri:0, instance:testPackage2.Test6@7b69c6ba]" name="carLoanPageMobileLogout" duration-ms="1" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanPageMobileLogout -->
+        <test-method status="PASS" signature="carLoanPageMobileSearchProducts()[pri:0, instance:testPackage2.Test6@7b69c6ba]" name="carLoanPageMobileSearchProducts" duration-ms="1" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanPageMobileSearchProducts -->
+        <test-method status="PASS" signature="thirdTestcase()[pri:0, instance:testPackage2.Test6@7b69c6ba]" name="thirdTestcase" duration-ms="0" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestcase -->
+      </class> <!-- testPackage2.Test6 -->
+    </test> <!-- Packages -->
+  </suite> <!-- Loan -->
+</testng-results>
