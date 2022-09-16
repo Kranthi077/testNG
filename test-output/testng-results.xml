@@ -1,43 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="8" total="15" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Loan" duration-ms="63" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+  <suite name="Suite" duration-ms="56" started-at="2022-09-16T13:21:26 IST" finished-at="2022-09-16T13:21:26 IST">
     <groups>
+      <group name="smoke">
+        <method signature="Test1.firstTestCase()[pri:0, instance:test.Test1@1a3869f4]" name="firstTestCase" class="test.Test1"/>
+        <method signature="Test2.thirdTestcase()[pri:0, instance:test.Test2@612fc6eb]" name="thirdTestcase" class="test.Test2"/>
+        <method signature="Test3.homeLoanPageLogout()[pri:0, instance:test.Test3@1060b431]" name="homeLoanPageLogout" class="test.Test3"/>
+        <method signature="Test4.carLoanPageMobileSearchProducts()[pri:0, instance:test.Test4@11758f2a]" name="carLoanPageMobileSearchProducts" class="test.Test4"/>
+        <method signature="Test4.carLoanPageWebLogout()[pri:0, instance:test.Test4@11758f2a]" name="carLoanPageWebLogout" class="test.Test4"/>
+        <method signature="Test7.amazonCartOptionTest()[pri:0, instance:test.Test7@e720b71]" name="amazonCartOptionTest" class="test.Test7"/>
+        <method signature="Test7.amazonSearchBarTest()[pri:0, instance:test.Test7@e720b71]" name="amazonSearchBarTest" class="test.Test7"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Packages" duration-ms="63" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
-      <class name="testPackage2.Test5">
-        <test-method status="PASS" signature="carLoanPageMobileLogout()[pri:0, instance:testPackage2.Test5@42d8062c]" name="carLoanPageMobileLogout" duration-ms="7" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+    <test name="Loan" duration-ms="56" started-at="2022-09-16T13:21:26 IST" finished-at="2022-09-16T13:21:26 IST">
+      <class name="test.Test7">
+        <test-method status="PASS" signature="logIntoAmazonApplication()[pri:0, instance:test.Test7@e720b71]" name="logIntoAmazonApplication" is-config="true" duration-ms="2" started-at="2022-09-16T13:21:26 IST" finished-at="2022-09-16T13:21:26 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- carLoanPageMobileLogout -->
-        <test-method status="PASS" signature="carLoanPageMobileSearchProducts()[pri:0, instance:testPackage2.Test5@42d8062c]" name="carLoanPageMobileSearchProducts" duration-ms="0" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+        </test-method> <!-- logIntoAmazonApplication -->
+        <test-method status="PASS" signature="amazonCartOptionTest()[pri:0, instance:test.Test7@e720b71]" name="amazonCartOptionTest" duration-ms="1" started-at="2022-09-16T13:21:26 IST" finished-at="2022-09-16T13:21:26 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- carLoanPageMobileSearchProducts -->
-        <test-method status="PASS" signature="firstTestCase()[pri:0, instance:testPackage2.Test5@42d8062c]" name="firstTestCase" duration-ms="2" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+        </test-method> <!-- amazonCartOptionTest -->
+        <test-method status="PASS" signature="logIntoAmazonApplication()[pri:0, instance:test.Test7@e720b71]" name="logIntoAmazonApplication" is-config="true" duration-ms="1" started-at="2022-09-16T13:21:26 IST" finished-at="2022-09-16T13:21:26 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTestCase -->
-        <test-method status="PASS" signature="secondTestcase()[pri:0, instance:testPackage2.Test5@42d8062c]" name="secondTestcase" duration-ms="1" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+        </test-method> <!-- logIntoAmazonApplication -->
+        <test-method status="PASS" signature="amazonSearchBarTest()[pri:0, instance:test.Test7@e720b71]" name="amazonSearchBarTest" duration-ms="0" started-at="2022-09-16T13:21:26 IST" finished-at="2022-09-16T13:21:26 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- secondTestcase -->
-      </class> <!-- testPackage2.Test5 -->
-      <class name="testPackage2.Test6">
-        <test-method status="PASS" signature="carLoanPageMobileLogout()[pri:0, instance:testPackage2.Test6@7b69c6ba]" name="carLoanPageMobileLogout" duration-ms="1" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carLoanPageMobileLogout -->
-        <test-method status="PASS" signature="carLoanPageMobileSearchProducts()[pri:0, instance:testPackage2.Test6@7b69c6ba]" name="carLoanPageMobileSearchProducts" duration-ms="1" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+        </test-method> <!-- amazonSearchBarTest -->
+      </class> <!-- test.Test7 -->
+      <class name="test.Test4">
+        <test-method status="PASS" signature="carLoanPageMobileSearchProducts()[pri:0, instance:test.Test4@11758f2a]" name="carLoanPageMobileSearchProducts" duration-ms="1" started-at="2022-09-16T13:21:26 IST" finished-at="2022-09-16T13:21:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoanPageMobileSearchProducts -->
-        <test-method status="PASS" signature="thirdTestcase()[pri:0, instance:testPackage2.Test6@7b69c6ba]" name="thirdTestcase" duration-ms="0" started-at="2022-09-15T13:25:01 IST" finished-at="2022-09-15T13:25:01 IST">
+        <test-method status="PASS" signature="carLoanPageWebLogout()[pri:0, instance:test.Test4@11758f2a]" name="carLoanPageWebLogout" duration-ms="0" started-at="2022-09-16T13:21:26 IST" finished-at="2022-09-16T13:21:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanPageWebLogout -->
+      </class> <!-- test.Test4 -->
+      <class name="test.Test3">
+        <test-method status="PASS" signature="homeLoanPageLogout()[pri:0, instance:test.Test3@1060b431]" name="homeLoanPageLogout" duration-ms="0" started-at="2022-09-16T13:21:26 IST" finished-at="2022-09-16T13:21:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanPageLogout -->
+      </class> <!-- test.Test3 -->
+      <class name="test.Test2">
+        <test-method status="PASS" signature="thirdTestcase()[pri:0, instance:test.Test2@612fc6eb]" name="thirdTestcase" duration-ms="1" started-at="2022-09-16T13:21:26 IST" finished-at="2022-09-16T13:21:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdTestcase -->
-      </class> <!-- testPackage2.Test6 -->
-    </test> <!-- Packages -->
-  </suite> <!-- Loan -->
+      </class> <!-- test.Test2 -->
+      <class name="test.Test1">
+        <test-method status="PASS" signature="firstTestCase()[pri:0, instance:test.Test1@1a3869f4]" name="firstTestCase" duration-ms="6" started-at="2022-09-16T13:21:26 IST" finished-at="2022-09-16T13:21:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- Loan -->
+  </suite> <!-- Suite -->
 </testng-results>

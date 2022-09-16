@@ -1,5 +1,6 @@
 package test;
 
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class Test3 {
@@ -8,30 +9,20 @@ public class Test3 {
 	public void homeLoanPageLogin() {
 		System.out.println("Home loan page login successful");
 	}
-	
-	
+
 	@Test
 	public void homeLoanPageSearchProducts() {
 		System.out.println("Home loan page SearchProduct Methods");
 	}
-	
-	
-	@Test
+
+	@Test (groups = {"smoke"})
 	public void homeLoanPageLogout() {
 		System.out.println("Home loan page logout successful");
 	}
-	
-	
-	@Test
-	public void carLoanPageMobileSearchProducts() {
-		System.out.println("Car loan Mobile page SearchProduct Methods");
+
+	@BeforeSuite
+	public void setDownloadDirectoryPath() {
+		System.out.println("I am in Before suit to stup download directory path for files");
 	}
-	
-	
-	@Test
-	public void carLoanPageMobileLogout() {
-		System.out.println("Car loan Mobile page logout successful");
-	}
-	
-	
+
 }
