@@ -2,24 +2,29 @@ package test;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import io.opentelemetry.exporter.logging.SystemOutLogExporter;
+public class Parametrization {
 
-public class Test4 {
-
+	@Parameters({ "URL" , "username" })
 	@BeforeClass
-	public void pickTheCarLoanUserCredentials() {
+	public void pickTheCarLoanUserCredentials(String hdfcUrl, String user) {
+		System.out.println(hdfcUrl);
+		System.out.println(user);
 		System.out.println("Driver is in BeforeClass Method to pick car loan credentials");
 
 	}
 
+	@Parameters({ "URL" })
 	@AfterClass
-	public void removeCarLoanCredentials() {
+	public void removeCarLoanCredentials(String hdfcUrl) {
+		System.out.println(hdfcUrl);
+
 		System.out.println("Driver is in After Class Method to delete car loan credentials");
 
 	}
-
+	
 	@Test
 	public void carLoanPageWebLogin() {
 		System.out.println("Car loan web page login successful");
@@ -30,7 +35,7 @@ public class Test4 {
 		System.out.println("Car loan web page SearchProduct Methods");
 	}
 
-	@Test(groups = {"smoke"})
+	@Test
 	public void carLoanPageWebLogout() {
 		System.out.println("Car loan web page logout successful");
 	}
@@ -40,12 +45,12 @@ public class Test4 {
 		System.out.println("Car loan Mobile page login successful");
 	}
 
-	@Test(groups = {"smoke"})
+	@Test
 	public void carLoanPageMobileSearchProducts() {
 		System.out.println("Car loan Mobile page SearchProduct Methods");
 	}
 
-	@Test(dependsOnMethods = {"carLoanPageMobileLogin"})
+	@Test
 	public void carLoanPageMobileLogout() {
 		System.out.println("Car loan Mobile page logout successful");
 	}

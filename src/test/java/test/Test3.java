@@ -1,6 +1,7 @@
 package test;
 
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Test3 {
@@ -9,9 +10,11 @@ public class Test3 {
 	public void homeLoanPageLogin() {
 		System.out.println("Home loan page login successful");
 	}
-
-	@Test
-	public void homeLoanPageSearchProducts() {
+	
+	@Parameters({ "URL" })
+	@Test 
+	public void homeLoanPageSearchProducts(String url) {
+		System.out.println(url);
 		System.out.println("Home loan page SearchProduct Methods");
 	}
 
