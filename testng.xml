@@ -8,6 +8,7 @@
 					<include name="firstTestCase"></include>
 				</methods>
 			</class>
+
 			<class name="test.Test2">
 				<methods>
 					<exclude name="thirdTestcase"></exclude>

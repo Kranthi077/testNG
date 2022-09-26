@@ -1,14 +1,17 @@
 package test;
 
+import static org.testng.Assert.assertTrue;
+
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Test3 {
 
-	@Test
+	@Test(enabled = true)
 	public void homeLoanPageLogin() {
 		System.out.println("Home loan page login successful");
+		assertTrue(false);
 	}
 	
 	@Parameters({ "URL" })

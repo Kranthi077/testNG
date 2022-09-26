@@ -9,10 +9,10 @@ public class EnableAndTimeout {
 		System.out.println("a_test ");
 	}
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void b_test() {
 		System.out.println("b_test ");
-		int i =1/0;
+		int i = 1 / 0;
 	}
 
 	@Test
