@@ -1,75 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="1" total="10" passed="8">
+<testng-results skipped="0" failed="2" ignored="0" total="12" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Loan" duration-ms="71" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
+  <suite name="Suite" duration-ms="109" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
     <groups>
       <group name="smoke">
-        <method signature="Test3.homeLoanPageLogout()[pri:0, instance:test.Test3@9353778]" name="homeLoanPageLogout" class="test.Test3"/>
+        <method signature="Test4.carLoanPageMobileSearchProducts()[pri:0, instance:test.Test4@3d680b5a]" name="carLoanPageMobileSearchProducts" class="test.Test4"/>
+        <method signature="Test1.firstTestCase()[pri:0, instance:test.Test1@49d904ec]" name="firstTestCase" class="test.Test1"/>
+        <method signature="Test2.thirdTestcase()[pri:0, instance:test.Test2@48e4374]" name="thirdTestcase" class="test.Test2"/>
+        <method signature="Test3.homeLoanPageLogout()[pri:0, instance:test.Test3@3ba9ad43]" name="homeLoanPageLogout" class="test.Test3"/>
+        <method signature="Test4.carLoanPageWebLogout()[pri:0, instance:test.Test4@3d680b5a]" name="carLoanPageWebLogout" class="test.Test4"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Personal Loan" duration-ms="31" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
-      <class name="test.Parametrization">
-        <test-method status="PASS" signature="pickTheCarLoanUserCredentials(java.lang.String, java.lang.String)[pri:0, instance:test.Parametrization@5ae50ce6]" name="pickTheCarLoanUserCredentials" is-config="true" duration-ms="3" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.hdfcbank.com/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Manager]]>
-              </value>
-            </param>
-          </params>
+    <test name="Test" duration-ms="109" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
+      <class name="test.Test4">
+        <test-method status="PASS" signature="pickTheCarLoanUserCredentials()[pri:0, instance:test.Test4@3d680b5a]" name="pickTheCarLoanUserCredentials" is-config="true" duration-ms="1" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pickTheCarLoanUserCredentials -->
-        <test-method status="PASS" signature="carLoanPageMobileLogin()[pri:0, instance:test.Parametrization@5ae50ce6]" name="carLoanPageMobileLogin" duration-ms="3" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
+        <test-method status="PASS" signature="carLoanPageMobileLogin()[pri:0, instance:test.Test4@3d680b5a]" name="carLoanPageMobileLogin" duration-ms="2" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoanPageMobileLogin -->
-        <test-method status="PASS" signature="carLoanPageMobileLogout()[pri:0, instance:test.Parametrization@5ae50ce6]" name="carLoanPageMobileLogout" duration-ms="1" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- carLoanPageMobileLogout -->
-        <test-method status="PASS" signature="carLoanPageMobileSearchProducts()[pri:0, instance:test.Parametrization@5ae50ce6]" name="carLoanPageMobileSearchProducts" duration-ms="1" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
+        <test-method status="PASS" signature="carLoanPageMobileSearchProducts()[pri:0, instance:test.Test4@3d680b5a]" name="carLoanPageMobileSearchProducts" duration-ms="2" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoanPageMobileSearchProducts -->
-        <test-method status="PASS" signature="carLoanPageWebLogin()[pri:0, instance:test.Parametrization@5ae50ce6]" name="carLoanPageWebLogin" duration-ms="1" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
+        <test-method status="PASS" signature="carLoanPageWebLogin()[pri:0, instance:test.Test4@3d680b5a]" name="carLoanPageWebLogin" duration-ms="2" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoanPageWebLogin -->
-        <test-method status="PASS" signature="carLoanPageWebLogout()[pri:0, instance:test.Parametrization@5ae50ce6]" name="carLoanPageWebLogout" duration-ms="0" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
+        <test-method status="PASS" signature="carLoanPageWebLogout()[pri:0, instance:test.Test4@3d680b5a]" name="carLoanPageWebLogout" duration-ms="3" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoanPageWebLogout -->
-        <test-method status="PASS" signature="carLoanPageWebSearchProducts()[pri:0, instance:test.Parametrization@5ae50ce6]" name="carLoanPageWebSearchProducts" duration-ms="0" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
+        <test-method status="PASS" signature="carLoanPageWebSearchProducts()[pri:0, instance:test.Test4@3d680b5a]" name="carLoanPageWebSearchProducts" duration-ms="1" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carLoanPageWebSearchProducts -->
-        <test-method status="PASS" signature="removeCarLoanCredentials(java.lang.String)[pri:0, instance:test.Parametrization@5ae50ce6]" name="removeCarLoanCredentials" is-config="true" duration-ms="1" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.hdfcbank.com/]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="carLoanPageMobileLogout()[pri:0, instance:test.Test4@3d680b5a]" name="carLoanPageMobileLogout" duration-ms="1" started-at="2022-10-25T07:08:03Z" depends-on-methods="test.Test4.carLoanPageMobileLogin" finished-at="2022-10-25T07:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carLoanPageMobileLogout -->
+        <test-method status="PASS" signature="removeCarLoanCredentials()[pri:0, instance:test.Test4@3d680b5a]" name="removeCarLoanCredentials" is-config="true" duration-ms="1" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeCarLoanCredentials -->
-      </class> <!-- test.Parametrization -->
-    </test> <!-- Personal Loan -->
-    <test name="Home Loan" duration-ms="9" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
+      </class> <!-- test.Test4 -->
       <class name="test.Test3">
-        <test-method status="PASS" signature="setDownloadDirectoryPath()[pri:0, instance:test.Test3@9353778]" name="setDownloadDirectoryPath" is-config="true" duration-ms="8" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
+        <test-method status="PASS" signature="setDownloadDirectoryPath()[pri:0, instance:test.Test3@3ba9ad43]" name="setDownloadDirectoryPath" is-config="true" duration-ms="10" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDownloadDirectoryPath -->
-        <test-method status="FAIL" signature="homeLoanPageLogin()[pri:0, instance:test.Test3@9353778]" name="homeLoanPageLogin" duration-ms="3" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
+        <test-method status="FAIL" signature="homeLoanPageLogin()[pri:0, instance:test.Test3@3ba9ad43]" name="homeLoanPageLogin" duration-ms="5" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -80,7 +63,7 @@ at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertTrue(Assert.java:44)
 at org.testng.Assert.assertTrue(Assert.java:54)
-at test.Test3.homeLoanPageLogin(Test3.java:17)
+at test.Test3.homeLoanPageLogin(Test3.java:14)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -112,28 +95,80 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeLoanPageLogin -->
-        <test-method status="PASS" signature="homeLoanPageLogout()[pri:0, instance:test.Test3@9353778]" name="homeLoanPageLogout" duration-ms="0" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
+        <test-method status="PASS" signature="homeLoanPageLogout()[pri:0, instance:test.Test3@3ba9ad43]" name="homeLoanPageLogout" duration-ms="2" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeLoanPageLogout -->
-        <test-method status="PASS" signature="homeLoanPageSearchProducts(java.lang.String)[pri:0, instance:test.Test3@9353778]" name="homeLoanPageSearchProducts" duration-ms="1" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.hdfcbank.com/]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="homeLoanPageSearchProducts(java.lang.String)[pri:0, instance:test.Test3@3ba9ad43]" name="homeLoanPageSearchProducts" duration-ms="0" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method homeLoanPageSearchProducts but has not been marked @Optional or defined
+in C:\Users\Aishwarya Jangampeta\Kranthi\eclipse-workspace\testNG\testng5.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method homeLoanPageSearchProducts but has not been marked @Optional or defined
+in C:\Users\Aishwarya Jangampeta\Kranthi\eclipse-workspace\testNG\testng5.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeLoanPageSearchProducts -->
       </class> <!-- test.Test3 -->
       <class name="test.Test2">
-        <test-method status="PASS" signature="deleteFilesFromDownloadDirectory()[pri:0, instance:test.Test2@3ba9ad43]" name="deleteFilesFromDownloadDirectory" is-config="true" duration-ms="0" started-at="2022-09-26T07:20:47Z" finished-at="2022-09-26T07:20:47Z">
+        <test-method status="PASS" signature="thirdTestcase()[pri:0, instance:test.Test2@48e4374]" name="thirdTestcase" duration-ms="3" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestcase -->
+        <test-method status="PASS" signature="deleteFilesFromDownloadDirectory()[pri:0, instance:test.Test2@48e4374]" name="deleteFilesFromDownloadDirectory" is-config="true" duration-ms="1" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteFilesFromDownloadDirectory -->
       </class> <!-- test.Test2 -->
-    </test> <!-- Home Loan -->
-  </suite> <!-- Loan -->
+      <class name="test.Test1">
+        <test-method status="PASS" signature="cleanUpAction()[pri:0, instance:test.Test1@49d904ec]" name="cleanUpAction" is-config="true" duration-ms="1" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpAction -->
+        <test-method status="PASS" signature="firstTestCase()[pri:0, instance:test.Test1@49d904ec]" name="firstTestCase" duration-ms="5" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTestCase -->
+        <test-method status="PASS" signature="secondTestcase()[pri:0, instance:test.Test1@49d904ec]" name="secondTestcase" duration-ms="2" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestcase -->
+        <test-method status="PASS" signature="cleanUpAction2()[pri:0, instance:test.Test1@49d904ec]" name="cleanUpAction2" is-config="true" duration-ms="1" started-at="2022-10-25T07:08:03Z" finished-at="2022-10-25T07:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpAction2 -->
+      </class> <!-- test.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

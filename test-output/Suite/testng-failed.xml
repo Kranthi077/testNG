@@ -6,6 +6,7 @@
       <class name="test.Test3">
         <methods>
           <include name="setDownloadDirectoryPath"/>
+          <include name="homeLoanPageLogin"/>
           <include name="homeLoanPageSearchProducts"/>
         </methods>
       </class> <!-- test.Test3 -->

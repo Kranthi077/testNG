@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan]">
-  <parameter name="URL" value="https://www.hdfcbank.com/"/>
-  <parameter name="username" value="Manager"/>
-  <listeners>
-    <listener class-name="test.Listeners"/>
-  </listeners>
-  <test thread-count="5" name="Home Loan(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="test.Test3">
         <methods>
           <include name="setDownloadDirectoryPath"/>
           <include name="homeLoanPageLogin"/>
+          <include name="homeLoanPageSearchProducts"/>
         </methods>
       </class> <!-- test.Test3 -->
     </classes>
-  </test> <!-- Home Loan(failed) -->
-</suite> <!-- Failed suite [Loan] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
